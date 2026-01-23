@@ -87,14 +87,9 @@ def seasonOne: IO[Response[IO]] =
           thumbnailUrl = "https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg",
         ),
         Actor(
-          name = "Michael Ontkean",
-          character = "Sherrif Harry S. Truman",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/c/c7/HarryNew.jpg/revision/latest?cb=20161026022237",
-        ),
-        Actor(
-          name = "Sherilyn Fenn",
-          character = "Audrey Horne",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/98/AudreyNew.jpg/revision/latest?cb=20161026025355",
+          name = "Sheryl Lee",
+          character = "Laura Palmer",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/92/Laura_Palmer_%281989%29.jpg/revision/latest?cb=20180219220542",
         ),
         Actor(
           name = "Lara Flynn Boyle",
@@ -102,59 +97,14 @@ def seasonOne: IO[Response[IO]] =
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/8/85/Donna_LFB.jpg/revision/latest?cb=20221026174227",
         ),
         Actor(
-          name = "Mädchen Amick",
-          character = "Shelly Johnson",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/66/Shelly_Johnson.png/revision/latest?cb=20230321101316",
+          name = "James Marshall",
+          character = "James Hurley",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/66/Jamesnew.jpg/revision/latest?cb=20161026024503",
         ),
         Actor(
-          name = "Mädchen Amick",
-          character = "Shelly Johnson",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/66/Shelly_Johnson.png/revision/latest?cb=20230321101316",
-        ),
-        Actor(
-          name = "Peggy Lipton",
-          character = "Norma Jennings",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/f/f3/Norma14214.jpg/revision/latest?cb=20161030052435",
-        ),
-        Actor(
-          name = "Sheryl Lee",
-          character = "Laura Palmer",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/92/Laura_Palmer_%281989%29.jpg/revision/latest?cb=20180219220542",
-        ),
-        Actor(
-          name = "Kimmy Robertson",
-          character = "Lucy Moran",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/4/47/LucyNewAgain.jpg/revision/latest?cb=20161026023511",
-        ),
-        Actor(
-          name = "Joan Chen",
-          character = "Josie Packard",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/8/8b/JosieNew.jpg/revision/latest?cb=20161026022344",
-        ),
-        Actor(
-          name = "Jack Nance",
-          character = "Pete Martell",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/3d/Pete_Martell.jpg/revision/latest?cb=20170822052012",
-        ),
-        Actor(
-          name = "Grace Zabriskie",
-          character = "Sarah Palmer",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/30/Sarah_007.png/revision/latest?cb=20170711230313",
-        ),
-        Actor(
-          name = "Ray Wise",
-          character = "Leland Palmer",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/c/cd/LelandPalmer.jpg/revision/latest?cb=20160816065237",
-        ),
-        Actor(
-          name = "Dana Ashbrook",
-          character = "Bobby Briggs",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/98/BobbyHiRes.jpg/revision/latest?cb=20161101195815",
-        ),
-        Actor(
-          name = "Chris Mulkey",
-          character = "Hank Jennings",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/f/f5/HankHiRes2.jpg/revision/latest?cb=20161101201553",
+          name = "Sherilyn Fenn",
+          character = "Audrey Horne",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/98/AudreyNew.jpg/revision/latest?cb=20161026025355",
         ),
         Actor(
           name = "Richard Beymer",
@@ -162,54 +112,29 @@ def seasonOne: IO[Response[IO]] =
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/f/fa/Ben_001.jpg/revision/latest?cb=20100419234934",
         ),
         Actor(
-          name = "Piper Laurie",
-          character = "Catherine Martell",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/b/ba/Catherine_Martell_Infobox.jpg/revision/latest?cb=20231015113852",
-        ),
-        Actor(
-          name = "Frank Silva",
-          character = "BOB",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/37/KillerBob.jpg/revision/latest?cb=20100423043335",
-        ),
-        Actor(
-          name = "Michael Horse",
-          character = "Hawk",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/a/a1/DeputyHawkAtTheDiner.jpg/revision/latest?cb=20160925005033",
-        ),
-        Actor(
-          name = "Eric Da Re",
-          character = "Leo Johnson",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/a/a7/Leo_Johnson.jpg/revision/latest?cb=20161025123520",
-        ),
-        Actor(
-          name = "James Marshall",
-          character = "James Hurley",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/66/Jamesnew.jpg/revision/latest?cb=20161026024503",
-        ),
-        Actor(
           name = "David Patrick Kelly",
           character = "Jerry Horne",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/5/54/Jerryhornedpk.jpg/revision/latest?cb=20160511122515",
         ),
         Actor(
-          name = "Everett McGill",
-          character = "Ed Hurley",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/3c/BigEdNewPic.jpg/revision/latest?cb=20170524152240",
+          name = "Michael Ontkean",
+          character = "Sherrif Harry S. Truman",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/c/c7/HarryNew.jpg/revision/latest?cb=20161026022237",
         ),
         Actor(
-          name = "Wendy Robie",
-          character = "Nadine Hurley",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/4/4b/NadineNew.jpg/revision/latest?cb=20161026023639",
+          name = "Kimmy Robertson",
+          character = "Lucy Moran",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/4/47/LucyNewAgain.jpg/revision/latest?cb=20161026023511",
         ),
         Actor(
-          name = "Catherine E. Coulson",
-          character = "Margaret Lanterman (Log Lady)",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/68/Logladyreplacement.jpg/revision/latest?cb=20160906170235",
+          name = "Harry Goaz",
+          character = "Andy Brennan",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/7/72/AndyNew.jpg/revision/latest?cb=20161026025038",
         ),
         Actor(
-          name = "Russ Tamblyn",
-          character = "Dr. Lawrence Jacoby",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/6f/JacobyNew.jpg/revision/latest?cb=20161025125112",
+          name = "Michael Horse",
+          character = "Hawk",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/a/a1/DeputyHawkAtTheDiner.jpg/revision/latest?cb=20160925005033",
         ),
         Actor(
           name = "Miguel Ferrer",
@@ -222,19 +147,74 @@ def seasonOne: IO[Response[IO]] =
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/7/7a/GordonColeNewMainPhoto.png/revision/latest?cb=20171109180605",
         ),
         Actor(
-          name = "Phoebe Augustine",
-          character = "Ronette Pulaski",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/1/19/Ronette_Pulaski.jpg/revision/latest?cb=20230328164510",
+          name = "Mädchen Amick",
+          character = "Shelly Johnson",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/66/Shelly_Johnson.png/revision/latest?cb=20230321101316",
         ),
         Actor(
-          name = "Walter Olkewicz",
-          character = "Jacques Renault",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/b/b3/Jacques2.jpg/revision/latest?cb=20100911041317",
+          name = "Dana Ashbrook",
+          character = "Bobby Briggs",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/9/98/BobbyHiRes.jpg/revision/latest?cb=20161101195815",
         ),
         Actor(
-          name = "Al Strobel",
-          character = "Mike (The one-armed man)",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926",
+          name = "Eric Da Re",
+          character = "Leo Johnson",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/a/a7/Leo_Johnson.jpg/revision/latest?cb=20161025123520",
+        ),
+        Actor(
+          name = "Everett McGill",
+          character = "Ed Hurley",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/3c/BigEdNewPic.jpg/revision/latest?cb=20170524152240",
+        ),
+        Actor(
+          name = "Wendy Robie",
+          character = "Nadine Hurley",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/4/4b/NadineNew.jpg/revision/latest?cb=20161026023639",
+        ),
+        Actor(
+          name = "Peggy Lipton",
+          character = "Norma Jennings",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/f/f3/Norma14214.jpg/revision/latest?cb=20161030052435",
+        ),
+        Actor(
+          name = "Chris Mulkey",
+          character = "Hank Jennings",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/f/f5/HankHiRes2.jpg/revision/latest?cb=20161101201553",
+        ),
+        Actor(
+          name = "Grace Zabriskie",
+          character = "Sarah Palmer",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/30/Sarah_007.png/revision/latest?cb=20170711230313",
+        ),
+        Actor(
+          name = "Ray Wise",
+          character = "Leland Palmer",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/c/cd/LelandPalmer.jpg/revision/latest?cb=20160816065237",
+        ),
+        Actor(
+          name = "Russ Tamblyn",
+          character = "Dr. Lawrence Jacoby",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/6f/JacobyNew.jpg/revision/latest?cb=20161025125112",
+        ),
+        Actor(
+          name = "Joan Chen",
+          character = "Josie Packard",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/8/8b/JosieNew.jpg/revision/latest?cb=20161026022344",
+        ),
+        Actor(
+          name = "Jack Nance",
+          character = "Pete Martell",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/3d/Pete_Martell.jpg/revision/latest?cb=20170822052012",
+        ),
+        Actor(
+          name = "Piper Laurie",
+          character = "Catherine Martell",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/b/ba/Catherine_Martell_Infobox.jpg/revision/latest?cb=20231015113852",
+        ),
+        Actor(
+          name = "Frank Silva",
+          character = "BOB",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/3/37/KillerBob.jpg/revision/latest?cb=20100423043335",
         ),
         Actor(
           name = "Michael J. Anderson",
@@ -242,9 +222,14 @@ def seasonOne: IO[Response[IO]] =
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/0/0f/MFAPsitting.jpg/revision/latest?cb=20100709031955",
         ),
         Actor(
-          name = "Harry Goaz",
-          character = "Andy Brennan",
-          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/7/72/AndyNew.jpg/revision/latest?cb=20161026025038",
+          name = "Al Strobel",
+          character = "Mike (The one-armed man)",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926",
+        ),
+        Actor(
+          name = "Catherine E. Coulson",
+          character = "Margaret Lanterman (Log Lady)",
+          thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/6/68/Logladyreplacement.jpg/revision/latest?cb=20160906170235",
         ),
       )
     )
