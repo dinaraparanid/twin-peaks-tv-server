@@ -16,3 +16,6 @@ def moviesRoutes: AppRoutes =
       HttpRoutes.of[IO]:
         case GET -> (Root / "season1") =>
           onSeasonOne() run appModule
+
+        case GET -> (Root / "season2") =>
+          onSeasonTwo() run appModule
