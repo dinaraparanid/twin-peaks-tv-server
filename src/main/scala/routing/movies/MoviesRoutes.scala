@@ -22,3 +22,6 @@ def moviesRoutes: AppRoutes =
 
         case GET -> (Root / "season3") =>
           onSeasonThree() run appModule
+
+        case GET -> (Root / "movie") =>
+          onMovie() run appModule

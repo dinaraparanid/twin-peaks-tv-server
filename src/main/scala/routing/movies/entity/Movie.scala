@@ -10,7 +10,7 @@ final case class Movie(
   rating: Float,
   description: String,
   videoUrl: String,
-  thumbnailUrls: List[String],
+  wallpaperUrl: String,
   scenesUrls: List[String],
   actors: List[Actor],
 )
@@ -22,7 +22,7 @@ object Movie:
   private val FieldRating = "rating"
   private val FieldDescription = "description"
   private val FieldVideoUrl = "video_url"
-  private val FieldThumbnailUrls = "thumbnail_urls"
+  private val FieldWallpaperUrl = "wallpaper_url"
   private val FieldScenesUrls = "scenes_urls"
   private val FieldActors = "actors"
 
@@ -34,7 +34,7 @@ object Movie:
       nameA3 = FieldRating,
       nameA4 = FieldDescription,
       nameA5 = FieldVideoUrl,
-      nameA6 = FieldThumbnailUrls,
+      nameA6 = FieldWallpaperUrl,
       nameA7 = FieldScenesUrls,
       nameA8 = FieldActors,
     )(m => (
@@ -44,7 +44,7 @@ object Movie:
       m.rating,
       m.description,
       m.videoUrl,
-      m.thumbnailUrls,
+      m.wallpaperUrl,
       m.scenesUrls,
       m.actors,
     ))
@@ -57,7 +57,7 @@ object Movie:
       nameA3 = FieldRating,
       nameA4 = FieldDescription,
       nameA5 = FieldVideoUrl,
-      nameA6 = FieldThumbnailUrls,
+      nameA6 = FieldWallpaperUrl,
       nameA7 = FieldScenesUrls,
       nameA8 = FieldActors,
     )(Movie.apply)
