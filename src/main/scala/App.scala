@@ -10,6 +10,7 @@ import com.paranid5.twin_peaks_tv_server.routing.movies.moviesRoutes
 
 import org.http4s.ember.server.EmberServerBuilder
 import org.http4s.server.Router
+import org.http4s.server.staticcontent.{FileService, fileService}
 import org.http4s.{Request, Response}
 
 object App extends IOApp:
