@@ -17,7 +17,7 @@ def seasonOne: IO[Response[IO]] =
       title = "Season 1",
       year = 1990,
       rating = 8.5,
-      description = "The first season of the series focuses mainly on the investigation of the mysterious murder of Laura Palmer, a young resident of the small town of Twin Peaks in Washington State. Here are the highlights of the first season:\n\nThe series begins with the discovery of Laura Palmer's body, wrapped in plastic wrap, on the shore of a lake. This event shocks the residents of Twin Peaks and attracts the attention of the FBI.\n\nThe FBI sends Agent Dale Cooper (played by Kyle McLachlan) to the city to investigate the murder. Cooper is unpredictable and intuitive, and he brings unusual methods to the investigation, including dream interpretation and knowledge of Tibetan culture.\n\nDuring the investigation, Cooper and his team encounter many mysterious characters and discover many secrets hidden in the quiet corners of Twin Peaks. It soon becomes clear that Laura's murder is connected to many other mysteries and intrigues in the city.\n\nIn addition to the murder investigation, the first season also focuses on the personal relationships and problems of the main characters, such as Sheriff Harry Truman, Laura's fiancee Margaret Lanterman, as well as Laura Palmer and her friends.\n\nThe series has a mystical atmosphere, exploring dreams and the interrelationships between the world of reality and the world of dreams, which adds mystery and mystery to the plot.",
+      description = "The first season of the series focuses mainly on the investigation of the mysterious murder of Laura Palmer, a young resident of the small town of Twin Peaks in Washington State. Here are the highlights of the first season:\n\nThe series begins with the discovery of Laura Palmer's body, wrapped in plastic wrap, on the shore of a lake. This event shocks the residents of Twin Peaks and attracts the attention of the FBI.\n\nThe FBI sends Agent Dale Cooper (played by Kyle McLachlan) to the city to investigate the murder. Cooper is unpredictable and intuitive, and he brings unusual methods to the investigation, including dream interpretation and knowledge of Tibetan culture.",
       thumbnailUrls = List(
         s"$imageHostBaseUrl/season1/thumbnail/pic1.jpg",
         s"$imageHostBaseUrl/season1/thumbnail/pic2.webp",
@@ -85,7 +85,7 @@ def seasonOne: IO[Response[IO]] =
       actors = List(
         Actor(
           name = "Kyle MacLachlan",
-          character = "Special Agent Dale Cooper",
+          character = "Dale Cooper",
           thumbnailUrl = "https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg",
         ),
         Actor(
@@ -220,12 +220,12 @@ def seasonOne: IO[Response[IO]] =
         ),
         Actor(
           name = "Michael J. Anderson",
-          character = "The arm (The Man from Another Place)",
+          character = "The arm",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/0/0f/MFAPsitting.jpg/revision/latest?cb=20100709031955",
         ),
         Actor(
           name = "Al Strobel",
-          character = "Mike (The one-armed man)",
+          character = "Mike",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926",
         ),
         Actor(

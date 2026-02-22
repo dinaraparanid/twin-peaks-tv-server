@@ -44,7 +44,7 @@ def movie: IO[Response[IO]] =
         ),
         Actor(
           name = "Kyle MacLachlan",
-          character = "Special Agent Dale Cooper",
+          character = "Dale Cooper",
           thumbnailUrl = "https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg",
         ),
         Actor(

@@ -185,7 +185,7 @@ def seasonTwo: IO[Response[IO]] =
       actors = List(
         Actor(
           name = "Kyle MacLachlan",
-          character = "Special Agent Dale Cooper",
+          character = "Dale Cooper",
           thumbnailUrl = "https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg",
         ),
         Actor(
@@ -320,12 +320,12 @@ def seasonTwo: IO[Response[IO]] =
         ),
         Actor(
           name = "Michael J. Anderson",
-          character = "The arm (The Man from Another Place)",
+          character = "The arm",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/0/0f/MFAPsitting.jpg/revision/latest?cb=20100709031955",
         ),
         Actor(
           name = "Al Strobel",
-          character = "Mike (The one-armed man)",
+          character = "Mike",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926",
         ),
         Actor(

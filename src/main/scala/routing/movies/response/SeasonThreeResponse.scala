@@ -158,7 +158,7 @@ def seasonThree: IO[Response[IO]] =
       actors = List(
         Actor(
           name = "Kyle MacLachlan",
-          character = "Special Agent Dale Cooper",
+          character = "Dale Cooper",
           thumbnailUrl = "https://static.wikia.nocookie.net/twinpeaks/images/8/81/Dale_Cooper_%282010s%29.jpg/revision/latest?cb=20170815022327",
         ),
         Actor(
