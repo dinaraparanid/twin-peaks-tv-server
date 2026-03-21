@@ -1,0 +1,1406 @@
+openapi: 3.1.0
+info:
+  title: Twin Peaks TV Server
+  version: 1.0.0
+paths:
+  /season1:
+    get:
+      operationId: getSeason1
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Season'
+              example:
+                title: Season 1
+                year: 1990
+                rating: 8.5
+                description: |-
+                  The first season of the series focuses mainly on the investigation of the mysterious murder of Laura Palmer, a young resident of the small town of Twin Peaks in Washington State. Here are the highlights of the first season:
+
+                  The series begins with the discovery of Laura Palmer's body, wrapped in plastic wrap, on the shore of a lake. This event shocks the residents of Twin Peaks and attracts the attention of the FBI.
+
+                  The FBI sends Agent Dale Cooper (played by Kyle McLachlan) to the city to investigate the murder. Cooper is unpredictable and intuitive, and he brings unusual methods to the investigation, including dream interpretation and knowledge of Tibetan culture.
+                thumbnail_urls:
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/thumbnail/pic1.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/thumbnail/pic2.webp
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/thumbnail/pic3.jpeg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/thumbnail/pic4.webp
+                episodes:
+                - title: 01. Northwest Passage
+                  rating: 8.9
+                  description: "A body wrapped in cellophane was found on the shore.\
+                    \ Sheriff Harry Truman identifies the victim as Laura Palmer,\
+                    \ a 17—year-old schoolgirl. Laura's mother, Sarah, is worried\
+                    \ about her daughter's absence from home. She calls her husband\
+                    \ Leland at the moment when the sheriff brings him bad news. FBI\
+                    \ agent Dale Cooper is being sent to Twin Peaks to investigate.\
+                    \ He sees a connection between Laura's death and the murder of\
+                    \ Teresa Banks, which happened a year earlier. Tiny pieces of\
+                    \ paper with letters written on them were found under the nails\
+                    \ of both girls. \n\nAt first, Cooper suspects Laura's boyfriend,\
+                    \ Bobby. But the girl had another lover, James Hurley, who also\
+                    \ has no alibi. The deceased's best friend, Donna Hayward, helps\
+                    \ James avoid being targeted by the feds, at least at first. Sarah\
+                    \ has a nightmare in which she finds part of her daughter's pendant\
+                    \ in the ground. James buried it there."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e1.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e01.TwinPeaks.top.mp4
+                - title: 02. Traces to Nowhere
+                  rating: 8.3
+                  description: "During the interrogation, James first denies meeting\
+                    \ Laura on the night of her murder, and then confesses, but claims\
+                    \ that he was not involved in the death of the girl. According\
+                    \ to the conclusion of the medical examiner Hayward, on the eve\
+                    \ of her death, Laura had sex with three men. The high school\
+                    \ student also took drugs. Waitress Shelly Johnson finds Leo's\
+                    \ husband's bloodstained shirt. Later, he beats his wife. Cooper\
+                    \ meets Audrey Horn— the daughter of businessman Benjamin. A girl\
+                    \ is flirting with an agent. \n\nDonna comes to Sarah to comfort\
+                    \ her. At some point, Mrs. Palmer begins to see her as her daughter.\
+                    \ Then she notices Bob's silhouette in the corner, which completely\
+                    \ unsettles the woman and leads to hysteria. Psychiatrist Lawrence\
+                    \ Jacobi, who treated Laura, listens to an audio recording with\
+                    \ her voice, gets upset and turns over in his hands part of the\
+                    \ pendant, the other half of which was found on the corpse."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e2.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e02.TwinPeaks.top.mp4
+                - title: 03. Zen, or the Skill to Catch a Killer
+                  rating: 8.9
+                  description: "Benjamin and Jerry Horn go to a casino-brothel called\
+                    \ \"One Eyed Jacks\". The establishment is located on the Canadian-American\
+                    \ border. Another FBI agent is coming to town. Cooper tried out\
+                    \ a new system for excluding suspects from the case, because there\
+                    \ were too many of them. Leo Johnson and Lawrence Jacobi are the\
+                    \ most suspicious of Dale. Donna confesses her feelings to James:\
+                    \ she had previously hesitated to do so for fear of being rejected\
+                    \ and Laura looming on the horizon. Donna and James begin a relationship.\
+                    \ \n\nLeo catches Bobby and Mike, who wanted to take drugs from\
+                    \ the cache. He blackmails the couple and hints that he knows\
+                    \ about his wife's infidelities. Later, Bobby visits Shelly, who\
+                    \ has been beaten by her husband again. Cooper has a disturbing\
+                    \ dream involving Bob, Mike, and Laura. He wakes up and contacts\
+                    \ the sheriff, stating that he knows who killed the girl."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e3.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e03.TwinPeaks.top.mp4
+                - title: 04. Rest in Pain
+                  rating: 8.3
+                  description: "Cooper unravels his dream, as he believes that it\
+                    \ contains the answer to Laura's murder. Audrey had slipped a\
+                    \ note mentioning a brothel under Dale's door, and he had guessed\
+                    \ it. Albert Rosenfield performs an autopsy, and learns a lot\
+                    \ about the victim's life. The medical examiner had an argument\
+                    \ with Truman and got punched in the face by the sheriff. At Laura's\
+                    \ funeral, Bobby makes a scene, accusing others of inaction: the\
+                    \ deceased needed help, but the people around her stayed away.\
+                    \ There is a scuffle between Bobby and James. Jacques Renault\
+                    \ asks Leo for help after learning about the detention of Bernard's\
+                    \ brother. \n\nCooper learns about the secret society \"Bookhouse\
+                    \ Boys\": its members protect the city from supernatural evil.\
+                    \ Maddie Ferguson, Laura's cousin and exact copy (except for the\
+                    \ color of her hair), arrives in Twin Peaks. Josie tells Harry,\
+                    \ with whom she is having an affair, that one of the accounting\
+                    \ books is missing from the safe. Catherine Martell and Benjamin\
+                    \ Horn conspired to damage Josie's sawmill."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e4.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e04.TwinPeaks.top.mp4
+                - title: 05. The One-Armed Man
+                  rating: 8.1
+                  description: "Norma is forced to help her husband Hank get out of\
+                    \ prison on parole. She already has another relationship, but\
+                    \ a woman cannot refuse. Once free, Jenkins calls Josie. James\
+                    \ runs into Maddie and is struck by her resemblance to Laura.\
+                    \ Shelly shows Bobby her husband's bloodstained shirt. The guy\
+                    \ promises his mistress that with the help of this evidence he\
+                    \ will be able to get rid of Leo. \n\nCooper and the sheriff are\
+                    \ looking for the bird that left wounds on Laura's body. It belongs\
+                    \ to Jacques Renault, and a search of his house turns out to be\
+                    \ a useful idea. After tracking Mike down, Dale asks him about\
+                    \ Bob and gets contradictory answers. The agent had previously\
+                    \ suspected Dr. Jacobi. Josie keeps an eye on the motel where\
+                    \ Benjamin and Catherine meet. This couple wants to set a fire\
+                    \ at the sawmill. Audrey reconciled with her father in order to\
+                    \ gain access to the perfume department where Laura worked. Audrey\
+                    \ and Donna agree to conduct their own investigation into their\
+                    \ friend's death."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e5.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e05.TwinPeaks.top.mp4
+                - title: 06. Cooper's Dreams
+                  rating: 8.5
+                  description: "Cooper is not getting enough sleep because of the\
+                    \ noisy Icelandic investors who have moved into the hotel. Leland\
+                    \ wants to go back to work, but he's still not himself, and the\
+                    \ boss sends the unhappy father home. The blood on Leo's shirt\
+                    \ does not belong to Laura, but to Jacques Renault. A fragment\
+                    \ of a playing chip from the One Eyed Jacks casino was found in\
+                    \ his hut, identical to the one found in Laura's stomach. Waldo's\
+                    \ bird was also in the cage. Shelly and Bobby were thinking about\
+                    \ Leo's murder. When her husband came home and attacked Shelly,\
+                    \ she was able to fire a pre-prepared pistol. \n\nCooper meets\
+                    \ an eccentric lady with a log. James and Donna convince Maddie\
+                    \ to look for Laura's diary, since she now lives in the Palmer\
+                    \ house. Josie spies on Katherine and Benjamin: the couple plans\
+                    \ to burn down the sawmill and buy the land cheaply. Bobby discusses\
+                    \ Laura's condition at Jacobi's session: the girl was thinking\
+                    \ about death and forced him to sell drugs. Audrey arrives at\
+                    \ Cooper's room late at night…"
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e6.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e06.TwinPeaks.top.mp4
+                - title: 07. Realization Time
+                  rating: 8.5
+                  description: "Cooper is not going to sleep with Audrey, but offers\
+                    \ her friendship. The agent is betting on Waldo — the bird can\
+                    \ imitate a previously heard voice, which means that sooner or\
+                    \ later it will give a hint. Leo, who was injured by his wife,\
+                    \ learns first about Shelly and Bobby's relationship, and then\
+                    \ about the bird. He kills Waldo, but Cooper manages to get what\
+                    \ he wanted. Johnson is now among the main suspects. Cooper and\
+                    \ Truman are going to visit an undercover casino brothel. Audrey\
+                    \ also wants to get a job as a call girl there: while working\
+                    \ in the perfume department, she found clues leading directly\
+                    \ to One Eyed Jacks. \n\nJames, Donna, and Maddie found Laura's\
+                    \ notes. They set up a trap for Dr. Jacobi to get the missing\
+                    \ film. Bobby hides drugs in James' motorcycle, wanting to frame\
+                    \ him. Josie is changing the rules of the game in the sawmill\
+                    \ situation. She offers Benjamin cooperation in exchange for getting\
+                    \ rid of Catherine. Hank was with Josie during the phone conversation."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e7.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e07.TwinPeaks.top.mp4
+                - title: 08. The Last Evening
+                  rating: 9.0
+                  description: "Working undercover at One Eyed Jacks, Cooper managed\
+                    \ to expose Jacques Renault and arrest him. The perpetrator was\
+                    \ injured during the arrest and ended up in the hospital. He blames\
+                    \ Johnson for what is happening. Leland finds out about his daughter's\
+                    \ killer and strangles Jacques with his own hands. Johnson forcibly\
+                    \ brought his wife to a sawmill, which he plans to burn down.\
+                    \ He's also trying to kill Bobby. Hank shows up in time and kills\
+                    \ Leo. Jenkins worked for Josie: she paid to cover up the circumstances\
+                    \ of her husband's death. Catherine helps Shelly free herself,\
+                    \ but a fire has already started at the sawmill. \n\nThe meeting\
+                    \ between Jacobi and Maddie, disguised as Laura, did not go according\
+                    \ to plan. James, Donna, and Maddie recognize Laura from a different\
+                    \ angle. Nadine took pills to commit suicide. Ed found his wife\
+                    \ and called an ambulance. James is arrested for drugs hidden\
+                    \ in his motorcycle by Bobby. Returning to the hotel room, Cooper\
+                    \ learns the news of Johnson's death by phone. Upon hearing the\
+                    \ knock, the agent opens the door and receives three bullets."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season1/episode/e8.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s01e08.TwinPeaks.top.mp4
+                actors:
+                - name: Kyle MacLachlan
+                  character: Dale Cooper
+                  thumbnail_url: https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg
+                - name: Sheryl Lee
+                  character: Laura Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/92/Laura_Palmer_%281989%29.jpg/revision/latest?cb=20180219220542
+                - name: Lara Flynn Boyle
+                  character: Donna Hayward
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/8/85/Donna_LFB.jpg/revision/latest?cb=20221026174227
+                - name: James Marshall
+                  character: James Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/66/Jamesnew.jpg/revision/latest?cb=20161026024503
+                - name: Sherilyn Fenn
+                  character: Audrey Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/98/AudreyNew.jpg/revision/latest?cb=20161026025355
+                - name: Richard Beymer
+                  character: Benjamin Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/fa/Ben_001.jpg/revision/latest?cb=20100419234934
+                - name: David Patrick Kelly
+                  character: Jerry Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/5/54/Jerryhornedpk.jpg/revision/latest?cb=20160511122515
+                - name: Michael Ontkean
+                  character: Sherrif Harry S. Truman
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/c/c7/HarryNew.jpg/revision/latest?cb=20161026022237
+                - name: Kimmy Robertson
+                  character: Lucy Moran
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/47/LucyNewAgain.jpg/revision/latest?cb=20161026023511
+                - name: Harry Goaz
+                  character: Andy Brennan
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/72/AndyNew.jpg/revision/latest?cb=20161026025038
+                - name: Michael Horse
+                  character: Hawk
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/a/a1/DeputyHawkAtTheDiner.jpg/revision/latest?cb=20160925005033
+                - name: Miguel Ferrer
+                  character: Albert Rosenfield
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/e/e6/AlbertRosenfeld.jpg/revision/latest?cb=20100330010337
+                - name: David Lynch
+                  character: Gordon Cole
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/7a/GordonColeNewMainPhoto.png/revision/latest?cb=20171109180605
+                - name: Mädchen Amick
+                  character: Shelly Johnson
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/66/Shelly_Johnson.png/revision/latest?cb=20230321101316
+                - name: Dana Ashbrook
+                  character: Bobby Briggs
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/98/BobbyHiRes.jpg/revision/latest?cb=20161101195815
+                - name: Eric Da Re
+                  character: Leo Johnson
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/a/a7/Leo_Johnson.jpg/revision/latest?cb=20161025123520
+                - name: Everett McGill
+                  character: Ed Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/3c/BigEdNewPic.jpg/revision/latest?cb=20170524152240
+                - name: Wendy Robie
+                  character: Nadine Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/4b/NadineNew.jpg/revision/latest?cb=20161026023639
+                - name: Peggy Lipton
+                  character: Norma Jennings
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f3/Norma14214.jpg/revision/latest?cb=20161030052435
+                - name: Chris Mulkey
+                  character: Hank Jennings
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f5/HankHiRes2.jpg/revision/latest?cb=20161101201553
+                - name: Grace Zabriskie
+                  character: Sarah Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/30/Sarah_007.png/revision/latest?cb=20170711230313
+                - name: Ray Wise
+                  character: Leland Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/c/cd/LelandPalmer.jpg/revision/latest?cb=20160816065237
+                - name: Russ Tamblyn
+                  character: Dr. Lawrence Jacoby
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/6f/JacobyNew.jpg/revision/latest?cb=20161025125112
+                - name: Joan Chen
+                  character: Josie Packard
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/8/8b/JosieNew.jpg/revision/latest?cb=20161026022344
+                - name: Jack Nance
+                  character: Pete Martell
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/3d/Pete_Martell.jpg/revision/latest?cb=20170822052012
+                - name: Piper Laurie
+                  character: Catherine Martell
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/b/ba/Catherine_Martell_Infobox.jpg/revision/latest?cb=20231015113852
+                - name: Frank Silva
+                  character: BOB
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/37/KillerBob.jpg/revision/latest?cb=20100423043335
+                - name: Michael J. Anderson
+                  character: The arm
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/0/0f/MFAPsitting.jpg/revision/latest?cb=20100709031955
+                - name: Al Strobel
+                  character: Mike
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926
+                - name: Catherine E. Coulson
+                  character: Margaret Lanterman (Log Lady)
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/68/Logladyreplacement.jpg/revision/latest?cb=20160906170235
+  /season2:
+    get:
+      operationId: getSeason2
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Season'
+              example:
+                title: Season 2
+                year: 1991
+                rating: 8.1
+                description: |-
+                  The second season of 'Twin Peaks' continues to unravel the mysteries that were introduced in the first season, while also introducing new storylines and characters. The characters continue to investigate the mysteries surrounding Laura, encountering new events and intrigue along the way.
+
+                  Throughout the second season, a number of new mysteries are unveiled, including threats from the past, dark family secrets, intrigue within the city's administration and underworld, and mystical phenomena that remain unsolved. Despite the resolution of some mysteries, many remain unanswered at the end of the season.
+                thumbnail_urls:
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t1.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t2.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t3.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t4.png
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t5.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t6.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t7.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/thumbnail/t8.jpg
+                episodes:
+                - title: 01. May the Giant Be with You
+                  rating: 9.0
+                  description: "Cooper almost died from a gunshot wound, as the waiter\
+                    \ who found him was in no hurry to call for help. Almost unconscious,\
+                    \ Dale sees a Giant giving him encrypted case clues. Finally,\
+                    \ after waiting for Truman, Hawke, and Bennen, Cooper ends up\
+                    \ in the hospital. The night in the city turned out to be intense.\
+                    \ \n\nThe sawmill burned down. They were injured in the fire,\
+                    \ but Shelly and Pete got out. Katherine and Josie are missing.\
+                    \ The latter seemed to have left, but promised to return. Leo\
+                    \ is in a coma after being injured. Ed takes care of Nadine, who\
+                    \ has not recovered from her suicide attempt. Bobby is still in\
+                    \ jail for drug trafficking, even though Truman thinks the guy\
+                    \ was framed. Benjamin in the brothel was ready to have fun with\
+                    \ the new girl, not suspecting that it was his daughter. Audrey\
+                    \ is afraid of not getting out of her cover. Leland has turned\
+                    \ gray and is behaving inappropriately. Maddy has concerns about\
+                    \ the strange things going on at the Palmer house. After receiving\
+                    \ a note from a lady with a log, Donna gets a job at Dinners on\
+                    \ Wheels, where Laura also worked."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e1.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e01.TwinPeaks.top.mp4
+                - title: 02. Coma
+                  rating: 8.6
+                  description: "There were 3 men with Laura at night. At the same\
+                    \ time, neither Jacques nor Leo definitely killed her. So, the\
+                    \ mysterious Bob becomes the main suspect. Cooper is informed\
+                    \ of the escape of his former partner Windom Earl from a psychiatric\
+                    \ hospital. Ronette Pulaski has come out of her coma, but is not\
+                    \ yet able to communicate. Leo has serious injuries. Bobby persuades\
+                    \ Shelly to take her husband home: the lovers will be able to\
+                    \ make good money on Johnson's disability payments. \n\nBenjamin\
+                    \ is worried about his daughter's disappearance, which Cooper\
+                    \ also becomes aware of. Audrey tries to call for help, but Blackie\
+                    \ and Emory stop her from doing so. Bob's portraits are everywhere.\
+                    \ At first, Leland recognizes him, albeit vaguely, and then the\
+                    \ image causes Ronette to have a seizure. Donna is jealous of\
+                    \ James and Maddie. While the lovers are figuring out their relationship,\
+                    \ Maddy runs into Bob. Donna and James come running to the girl's\
+                    \ scream, but they fail to see the cause of the hysteria."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e2.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e02.TwinPeaks.top.mp4
+                - title: 03. The Man Behind the Glass
+                  rating: 8.2
+                  description: "Leland tells Truman and Cooper that he knew Bob in\
+                    \ the past, and then his name was Robertson. Nadine gets worse\
+                    \ and is chained to the bed. Ed takes care of his wife and even\
+                    \ finds a way to bring her to her senses. Blackie has a plan related\
+                    \ to Audrey. The girl is drugged and they are going to get a ransom\
+                    \ for her from Benjamin. Horn was the one who turned Blackie into\
+                    \ a drug addict in the past, and in this way, she will take revenge\
+                    \ on him. Donna builds bridges with agoraphobe Harold Smith, with\
+                    \ whom Laura was also friends. \n\nSeeing Bob's image, one-armed\
+                    \ Mike loses his temper. He takes drugs and goes in search of\
+                    \ Bob. Cooper himself has already noticed that you can only see\
+                    \ this \"phantom\" if you are not in perfect condition. According\
+                    \ to James, Donna has changed a lot lately. Maddy comforts him.\
+                    \ The touching scenes between them did not escape Donna's eyes,\
+                    \ which caused new problems. Under hypnosis, Jacobi points to\
+                    \ Leland as the murderer of Jacques Renault. Mr. Palmer is being\
+                    \ arrested."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e3.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e03.TwinPeaks.top.mp4
+                - title: 04. Laura's Secret Diary
+                  rating: 8.0
+                  description: "Norma tells her husband about the imminent arrival\
+                    \ of critic Vance in the city. His favorable review of their establishment\
+                    \ will greatly help the business. Hank begins to prepare for the\
+                    \ welcome of the dear guest. When someone who matches Vance's\
+                    \ description appears on the doorstep, Jennings steals his license\
+                    \ and finds out that this man works for the police. Jean Reno\
+                    \ tells Benjamin about the deplorable situation of his daughter.\
+                    \ A ransom is demanded for Audrey, which Cooper must bring. It's\
+                    \ a trap for Dale. The agent does not know the truth and agrees\
+                    \ to help. He just wants to hire one of the \"Reading room Guys\"\
+                    \ as a partner. Harry volunteers. \n\nLeland confessed to the\
+                    \ murder of Jacques Renault. Harold has Laura's secret diary,\
+                    \ fragments of which he read to Donna. The latter persuades Maddy\
+                    \ to steal the recordings. Josie is back in town, and Pete informs\
+                    \ her that Catherine is believed to have died in a fire. Jonathan,\
+                    \ who is involved with Josie, threatens Hank. Lucy confessed to\
+                    \ Andy about cheating. Dick (the alleged father of her child)\
+                    \ offers his mistress money for an abortion."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e4.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e04.TwinPeaks.top.mp4
+                - title: 05. The Orchid's Curse
+                  rating: 8.3
+                  description: |-
+                    The judge, who has arrived in the city, releases Leland on bail. Leo cannot participate in the meetings in any capacity. Shelly isn't sure she wants him in her house, even if he's paralyzed. Bobby insists on getting disability benefits for Leo. Cooper found a note from Audrey and realized where the girl was being held. He and Truman secretly entered the brothel and rescued the prisoner. On the way out, the guards almost grabbed him, so Hawk, who came to the rescue, came in handy. Benjamin made a lucrative deal with a Japanese investor: a new project will be implemented on the site of the burnt-out sawmill.
+
+                     Andy became convinced that he could have children, which meant that he could also be the father of Lucy's child, who had already gone to an abortion clinic. Donna saw Harold getting sick as soon as he was outside. She and Maddie have devised a plan to steal Laura's diary. Harold heard a noise and caught the girls stealing. He became enraged and inflicted wounds on himself, accusing Donna of betrayal along the way.
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e5.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e05.TwinPeaks.top.mp4
+                - title: 06. Demons
+                  rating: 8.5
+                  description: "James breaks into Harold's apartment and rescues the\
+                    \ girls. The trio escapes, but the diary remains in Smith's possession.\
+                    \ Donna wants to tell the representatives of the guards about\
+                    \ what happened. Leo's disability allowance is much more modest\
+                    \ than Bobby and Shelly thought. Cooper brings Audrey to her senses.\
+                    \ Benjamin is grateful for the rescue of his daughter and for\
+                    \ the return of the ransom. Josie is blackmailing Horn. He risks\
+                    \ losing all the money from the recently concluded deal. \n\n\
+                    Cooper's boss, Gordon Cole, arrived at Twin Peaks. He reminds\
+                    \ the agent of the recent past and asks him not to make the same\
+                    \ mistakes. He also provides some details regarding the investigation.\
+                    \ Among them, there is information about an undetectable type\
+                    \ of drug that One-armed takes. His real name is Gerard, and Mike\
+                    \ is an entity that does not have its own body, therefore using\
+                    \ a carrier. One-armed tells about Bob and that he has been in\
+                    \ the city for 40 years, and now he has taken refuge in the Great\
+                    \ Northern Hotel."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e6.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e06.TwinPeaks.top.mp4
+                - title: 07. Lonely Souls
+                  rating: 9.4
+                  description: "The guards bring Mike to the Great Northern to search\
+                    \ for Bob. Meanwhile, Hawke finds Harold, who has committed suicide.\
+                    \ Next to the body is a suicide note and Laura's ruined diary.\
+                    \ Maddie is going to return to Montana, which she tells her friends,\
+                    \ as well as her uncle and aunt. The lady with the log gets in\
+                    \ touch with Cooper again. Gerard loses control of his body when\
+                    \ he is not taking medication. This allows Mike to pick up the\
+                    \ \"remote control\". Norma is dating Nadine, who, after a coma,\
+                    \ considers herself young and has great physical strength. \n\n\
+                    Shelly will have to leave her job to take care of her husband.\
+                    \ Leo keeps saying the same thing about shoes. This clue is enough\
+                    \ to find a tape recording in his shoes. Audrey informs her father\
+                    \ that she knows about his management of the brothel and his relationship\
+                    \ with Laura. Benjamin is arrested by the police. The Japanese\
+                    \ businessman turned out to be Catherine in disguise. Leland,\
+                    \ possessed by Bob's spirit, kills Maddie. Cooper felt that something\
+                    \ strange was going on."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e7.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e07.TwinPeaks.top.mp4
+                - title: 08. Drive with a Dead Girl
+                  rating: 8.5
+                  description: "James and Donna come to say goodbye to Maddie, but\
+                    \ Leland, possessed by Bob's spirit, says that the girl has already\
+                    \ left. He carries her corpse around the city in plastic and in\
+                    \ a golf bag, and then leaves it in the woods. Truman and Cooper\
+                    \ find the body. Audrey has some concerns about her father's involvement\
+                    \ in the arrest. Benjamin can get out: on the night of Laura's\
+                    \ murder, he had an alibi— Catherine. She is presumed dead, but\
+                    \ Pete dispels the myth: Mrs. Martell is ready to give written\
+                    \ testimony and save Horn in exchange for some property concessions\
+                    \ from her lover. \n\nPete and Truman believe that Josie left\
+                    \ town involuntarily. The sheriff does not want to let Benjamin\
+                    \ out, although Cooper does not consider him involved in Laura's\
+                    \ death. Leland feigns shock when he learns the latest news about\
+                    \ the investigation of his daughter's murder. Bob is elated. The\
+                    \ one-armed man managed to escape from police surveillance. Vivien,\
+                    \ Norma's mother— came to Twin Peaks with her new husband Ernie,\
+                    \ who hides that he was in prison with Hank."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e8.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e08.TwinPeaks.top.mp4
+                - title: 09. Arbitrary Law
+                  rating: 9.3
+                  description: "Donna remembers that she had already heard the phrase\
+                    \ from Harold's suicide note from Peter, the grandson of Mrs.\
+                    \ Tremond, to whom she brought lunch. Going to their house with\
+                    \ Cooper, Donna finds only a letter with the end of Laura's diary.\
+                    \ James gave his sweetheart a ring. But as soon as he found out\
+                    \ about Maddie's death, the guy's plans changed, and, to Donna's\
+                    \ disappointment, he left town. \n\nAndy wants to meet Dick in\
+                    \ person, as Lucy admits that either of them could be the father\
+                    \ of her child. Katherine visits Benjamin in prison in the garb\
+                    \ of a Japanese investor, and Horn signs over the sawmill to her,\
+                    \ hoping in return to get an alibi for the night of Laura's murder.\
+                    \ Cooper is again hinted that he already has all the clues to\
+                    \ solve the case. The agent gathers all those involved together\
+                    \ and points to Leland as the murderer of his daughter. He confesses.\
+                    \ Bob leaves Mr. Palmer's body, and Leland dies. It is unknown\
+                    \ where the evil spirit has gone now."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e9.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e09.TwinPeaks.top.mp4
+                - title: 10. Dispute Between Brothers
+                  rating: 7.8
+                  description: "For a long time, Leland, possessed by Bob's spirit,\
+                    \ drugged Sarah to hide his identity. Now she needs to come to\
+                    \ her senses and accept the harsh reality. Cooper is accepted\
+                    \ by Truman into the ranks of the \"Reading Room Guys.\" The agent\
+                    \ was preparing to leave Twin Peaks when he received charges of\
+                    \ abuse of office and illegally crossing the border with Canada.\
+                    \ Dale's gun and badge are taken away. Nadine is sent to high\
+                    \ school because she still considers herself a teenager. \n\n\
+                    Norma's mother turned out to be a harsh restaurant critic, who\
+                    \ trashed her own daughter's establishment. Hank brings Jean and\
+                    \ Ernie together. The trio is planning a new profitable business.\
+                    \ Audrey finds out about the death of Dale's lover. Shelly notices\
+                    \ that Leo can move. Bobby tried to get close to Benjamin, but\
+                    \ he didn't succeed. Josie returns and asks Harry for help. The\
+                    \ sheriff also listens to Catherine's confession. Major Briggs\
+                    \ invited Cooper to go fishing. During the outing, they talked\
+                    \ a lot about the \"white lodge.\" While Cooper is distracted,\
+                    \ the major disappears."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e10.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e10.TwinPeaks.top.mp4
+                - title: 11. Masked Ball
+                  rating: 7.4
+                  description: "According to Briggs' wife, he had disappeared before,\
+                    \ and this was due to military secrecy. Josie tells Harry about\
+                    \ Thomas Eckhart: in the past, it was he who \"picked up\" Josie\
+                    \ from the street and made her his \"property\". The widow believes\
+                    \ that Thomas may be involved in her husband's death. Catherine\
+                    \ agrees to take a relative in for a while, but only as a maid.\
+                    \ In addition, it turns out that Andrew is alive. Nadine had her\
+                    \ eye on high school student Mike Nelson at school. \n\nCooper's\
+                    \ former colleague changed his gender and turned from Denis to\
+                    \ Denise. First, she promises Dale help, and then informs him\
+                    \ that his situation is deplorable. Gordon had previously warned\
+                    \ Cooper about the danger. And Windom Earle sends his ex-partner\
+                    \ a threatening tape. Hank informs Benjamin that Jean Reno is\
+                    \ now running the brothel. James gets a job with Evelyn Marsh.\
+                    \ Douglas Milford marries Lana Budding, to the displeasure of\
+                    \ his brother Dwayne, the mayor of Twin Peaks."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e11.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e11.TwinPeaks.top.mp4
+                - title: 12. The Black Widow
+                  rating: 7.4
+                  description: "Cooper is looking for real estate in the area and\
+                    \ visits a ranch with a realtor. There, the suspended agent finds\
+                    \ traces of cocaine. He believes that the chain of events leads\
+                    \ to accusations against him, so he connects Denise. She uses\
+                    \ Audrey's stolen photos from her father's office to get Ernie\
+                    \ to cooperate. Benjamin had previously hired Bobby to spy on\
+                    \ Hank. Ed and Norma reminisce about their recent (albeit secret)\
+                    \ past together and dream of making plans for the future. Hank\
+                    \ sees them together. James and Evelyn grow closer. \n\nDouglas\
+                    \ died on their wedding night, and Dwayne blames Lana for what\
+                    \ happened. Dick took charge of Nikki's orphan. And now he suspects\
+                    \ the boy of involvement in the death of his parents. Andy helps\
+                    \ to sort out these intricacies. Nadine persistently seeks Mike's\
+                    \ attention. The guy even asks Donna to tell everyone that they\
+                    \ are back together in order to avoid Nadine's intrusive and inappropriate\
+                    \ courtship. Donna refuses. Major Briggs returns home as suddenly\
+                    \ as he disappeared."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e12.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e12.TwinPeaks.top.mp4
+                - title: 13. Checkmate
+                  rating: 7.7
+                  description: "Major Briggs is trying to formulate what he saw while\
+                    \ he was away. He is sure that the military is unofficially looking\
+                    \ for a \"white lodge.\" There were strange scars behind Briggs'\
+                    \ ear. The major does not have time to finish his story: he and\
+                    \ Cooper are interrupted by people in uniform. Harry is worried\
+                    \ about Josie, who works as a maid at Catherine's house. Donna\
+                    \ was able to find the address of Evelyn's house, where James\
+                    \ lives and works. Hank beat Ed up. The latter was saved only\
+                    \ by the appearance of Nadine. Benjamin plunged headlong into\
+                    \ a fantasy world and lost touch with the outside world. Audrey\
+                    \ has to contact Uncle Jerry to get him to step in. \n\nCooper,\
+                    \ along with the sheriff and his deputies, is hunting for Jean\
+                    \ Renault. The criminal intercepts the initiative, and Denise\
+                    \ helps out the guards. Someone set up a blackout in the city.\
+                    \ At the time of the emergency, a corpse appeared at the sheriff's\
+                    \ desk at the police station, pointing at the chessboard. In such\
+                    \ a spectacular way, Windom Earle made his move. Leo came to his\
+                    \ senses, which horrified Shelly."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e13.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e13.TwinPeaks.top.mp4
+                - title: 14. Double Play
+                  rating: 7.6
+                  description: "Leo tried to kill Shelly. Bobby stood up for her.\
+                    \ The guy had no luck in the fight, until Shelly stabbed her husband,\
+                    \ and Leo was forced to flee. Nadine completely switched to Mike,\
+                    \ and Hank was back behind bars, so Norma and Ed had a chance\
+                    \ for a full-fledged relationship. Evilyn's husband is killed\
+                    \ in an accident. James was fixing his car. The guy realized that\
+                    \ he was being framed. Cooper suspects Josie of murder. Thomas\
+                    \ Eckhardt is coming to town. The mayor wanted to deal with Douglas'\
+                    \ widow, as he blames her for his brother's death, but instead\
+                    \ falls in love with Lana. \n\nCooper is still retired and can\
+                    \ fully engage in the search for Windom Earl in the company of\
+                    \ Harry, who is only happy to cooperate with him. Dale says that\
+                    \ Caroline, Windom's wife, was a witness in a murder case, and\
+                    \ then she became a victim herself. Cooper let his guard down\
+                    \ then, but now he's sure that both crimes were the work of Windom,\
+                    \ who went crazy. Leo finds himself in the woods, where he finds\
+                    \ a cabin and meets Earl there.…"
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e14.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e14.TwinPeaks.top.mp4
+                - title: 15. Slaves and Masters
+                  rating: 7.3
+                  description: "Audrey, with the help of close friends and family,\
+                    \ arranges a performance to bring Benjamin back to his senses.\
+                    \ The plan is working. Shelly and Bobby tell the sheriff about\
+                    \ Leo's attack, his escape, and the night at the sawmill when\
+                    \ Hank shot Johnson. Nadine is not against Ed and Norma's relationship,\
+                    \ as she is now only interested in Mike. Harry asks Josie about\
+                    \ the circumstances of Jonathan's death. Thomas Eckhart, who has\
+                    \ arrived in Twin Peaks, does not hide his goals: he intends to\
+                    \ take Josie with him. Catherine is very pleased with this news.\
+                    \ \n\nJames wants to know why Evelyn is framing him. Malcolm is\
+                    \ planning to kill James. Evelyn's feelings for the guy overpower\
+                    \ the original idea, and she shoots Malcolm. Leo became a hostage\
+                    \ in Windom's apartment. Johnson wears an electric collar around\
+                    \ his neck. Earl makes the next move in his dangerous game with\
+                    \ Cooper. Dale finds a message from a former partner and knows\
+                    \ that he will have to respond."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e15.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e15.TwinPeaks.top.mp4
+                - title: 16. The Condemned Woman
+                  rating: 7.8
+                  description: "Benjamin is fighting for the ecology of the city,\
+                    \ hoping to disrupt new construction. Later, he intends to pursue\
+                    \ a political career. Nadine asks her husband for a divorce. He\
+                    \ is only happy and immediately makes an offer to Norma. But Hank\
+                    \ is ready to end his marriage with his wife only in exchange\
+                    \ for her testimony. Norma refuses to help. Earlier, Hank wanted\
+                    \ to negotiate a deal with Harry: he promised not to hand over\
+                    \ Josie, who allegedly killed both Jonathan and Andrew. James\
+                    \ is not ready to return to Twin Peaks. Donna, Shelly and Audrey\
+                    \ receive strange messages. Norma's sister is coming to town soon.\
+                    \ Audrey meets a certain John at the reception, who claims that\
+                    \ they have seen each other in the past. \n\nCooper and Harry\
+                    \ go to the meeting place of Josie and Thomas. Eckhart is seriously\
+                    \ injured and dies right in the hotel. Josie shot at him. Her\
+                    \ crimes are obvious (including shooting Cooper). Josie is also\
+                    \ dying for unknown reasons. And Cooper knows that Bob was involved."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e16.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e16.TwinPeaks.top.mp4
+                - title: 17. Wounds and Scars
+                  rating: 7.4
+                  description: "Harry becomes depressed after Josie's death: he doesn't\
+                    \ understand how he could have ignored what she was doing. Cooper\
+                    \ needs time and effort to get his buddy back on track. Annie,\
+                    \ Norma's sister who escaped from the convent, starts working\
+                    \ in a cafe. Dale and Annie clearly like each other. Ed and Nadine\
+                    \ attend Dr. Jacobi's sessions. The Great Northern Hotel is hosting\
+                    \ a charity event to save the weasels. However, the animal that\
+                    \ broke free spoils the holiday. Audrey gets closer to John Wheeler.\
+                    \ The lady with the log and Briggs show similar scars. \n\nEarl\
+                    \ comes to Donna's house in makeup and introduces himself as a\
+                    \ friend of her father's and delivers a message — a chess piece.\
+                    \ Cooper publishes his retaliatory move in the newspaper. Windom\
+                    \ is furious as the game leads to a draw. Pete helps Dale with\
+                    \ the moves, but he notices that 6 pawns will have to be sacrificed\
+                    \ (probably 6 people). Jones, who worked for Eckhardt, also leaves\
+                    \ a gift in the box, only this time to Catherine. And then Jones\
+                    \ goes to meet Harry."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e17.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e17.TwinPeaks.top.mp4
+                - title: 18. On the Wings of Love
+                  rating: 8.0
+                  description: "Jones tried to strangle Harry, who fought back. Cooper's\
+                    \ version: it was a delayed revenge from the already dead Thomas\
+                    \ for the sheriff's affair with Josie. Harry got a bonsai from\
+                    \ his ex-lover. In fact, Windom sent the gift by placing a listening\
+                    \ device there. Gordon Cole had come to warn Dale about Briggs\
+                    \ and Earl's past collaboration on the Blue Book project, and\
+                    \ they were both interested in the wigwams. Cole reinstates Cooper.\
+                    \ Besides, Gordon is surprised that he can hear Shelly without\
+                    \ a hearing aid. \n\nDonna is following the next meeting between\
+                    \ her mother and Benjamin and is going to find out the reason\
+                    \ for the increased frequency of dates. Windom has set his sights\
+                    \ on killing the winner of a local beauty contest. Annie had already\
+                    \ seen the signs that had appeared on Briggs and the lady with\
+                    \ the log. Cooper and company go to the Owl Cave to find them.\
+                    \ Later, Earl comes there, and learns much more than his predecessors."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e18.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e18.TwinPeaks.top.mp4
+                - title: 19. Variations on Relations
+                  rating: 7.9
+                  description: "Cooper and his company visited the Owl Cave again.\
+                    \ Dale guessed that Windom had been here. Earl lures the musician\
+                    \ to his place and makes him the next victim in a chess game,\
+                    \ after telling him part of the story about the \"wigwam\". Mike\
+                    \ is happy with Nadine. Bobby is jealous of Shelly and Gordon.\
+                    \ Lucy is unhappy with Dick's behavior, who has received the right\
+                    \ to conduct a wine tasting at the Great Northern. Donna doesn't\
+                    \ believe her mother's answers about her relationship with Benjamin.\
+                    \ \n\nWhile spending time with Annie, Dale hears familiar poems:\
+                    \ Windom sent them to Caroline in the past. Donna, Shelly and\
+                    \ Audrey also received parts of the work written by Leo's hand.\
+                    \ Pete accidentally discovered the puzzle that Thomas had given\
+                    \ Katherine. There was another box inside. Lara asks the mayor\
+                    \ to make her the winner of a beauty contest. Cooper and Truman\
+                    \ find the musician who was killed by Earl with a note saying\
+                    \ that the next time someone close to Dale will suffer."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e19.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e19.TwinPeaks.top.mp4
+                - title: 20. The Path to the Black Lodge
+                  rating: 8.2
+                  description: "John has to leave for Brazil in a hurry and is unlikely\
+                    \ to return. Audrey catches up with him at the airport, they have\
+                    \ sex on the plane, and then break up. Donna found her birth certificate,\
+                    \ where there is a dash in the father column. Leo tried to escape,\
+                    \ but only electrocuted himself to Windom's delight. Shelly and\
+                    \ Bobby have restored their relationship. Catherine, accompanied\
+                    \ by her brother, opened the next box. And inside they found another\
+                    \ one, now metal. \n\nThe number of beauty contest participants\
+                    \ is increasing. Cooper receives a warning from the giant, but\
+                    \ is unable to decipher it yet. The major obtained a recording\
+                    \ of Earl's report on the search for the wigwam. Later, Windom\
+                    \ intercepts Briggs, drugs him, and asks him how to find the entrance\
+                    \ to the lodge. The images in the Owl Cave turn out to be a map.\
+                    \ Cooper decided that Earl's real purpose in coming to Twin Peaks\
+                    \ was the black lodge. Bob appears in the flesh in the forest."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e20.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e20.TwinPeaks.top.mp4
+                - title: 21. Miss Twin Peaks
+                  rating: 8.5
+                  description: "Leo couldn't free himself, but he released the major,\
+                    \ as he wants to warn Shelly about the danger that threatens her.\
+                    \ Escape and betrayal anger the returning Windom. He hangs a spider\
+                    \ cage over Leo's head and puts a rope in his teeth. As soon as\
+                    \ the prisoner gets tired, he will let go of the rope, the cage\
+                    \ will fall on his head, and the unfortunate will be bitten. \n\
+                    \nWhile under the influence of drugs, Briggs was still able to\
+                    \ formulate clues for Cooper: love and fear would pave the way\
+                    \ to the wigwam. Bob is attracted to the same combination of feelings.\
+                    \ Donna learns that Benjamin Horn may be her father. Catherine\
+                    \ was able to get a small key out of the last box. Earl disguised\
+                    \ himself as a lady with a log and came to the contest, where\
+                    \ Annie was declared the winner. Windom caused a blackout and\
+                    \ used smoke bombs to kidnap the girl. Cooper finds himself in\
+                    \ the role of catching up."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e21.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e21.TwinPeaks.top.mp4
+                - title: 22. Beyond Life and Death
+                  rating: 9.2
+                  description: "During the crush at the beauty contest, Mike and Nadine\
+                    \ were injured. He was so scared for his beloved that he realized\
+                    \ how much he loved her. She can't figure out who this guy is,\
+                    \ and asks her husband to go home as soon as possible: Nadine's\
+                    \ amnesia has passed. Audrey holds a picket at the bank. Andrew\
+                    \ and Pete arrive with Katherine's stolen key. They open the cell\
+                    \ and see a bomb with a mocking note. The vault is blowing up.\
+                    \ Donna is packing up, as she is tired of living a lie. Briggs\
+                    \ receives a message from Sarah Palmer. Bobby proposed to Shelly.\
+                    \ \n\nCooper follows Earl and Annie to the entrance of the black\
+                    \ lodge. Inside, he encounters images of many people who are no\
+                    \ longer alive. Bob controls Windom's body and takes his soul.\
+                    \ Cooper offers himself in exchange for Annie. A doppelganger\
+                    \ comes out of the wigwam, Dale's evil doppelganger, but no one\
+                    \ notices. In the hotel, the reflection in the mirror is not of\
+                    \ the agent, but of Bob."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season2/episode/e22.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s02e22.TwinPeaks.top.mp4
+                actors:
+                - name: Kyle MacLachlan
+                  character: Dale Cooper
+                  thumbnail_url: https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Agentdalecooper.jpg/330px-Agentdalecooper.jpg
+                - name: Sheryl Lee
+                  character: Laura Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/92/Laura_Palmer_%281989%29.jpg/revision/latest?cb=20180219220542
+                - name: Lara Flynn Boyle
+                  character: Donna Hayward
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/8/85/Donna_LFB.jpg/revision/latest?cb=20221026174227
+                - name: James Marshall
+                  character: James Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/66/Jamesnew.jpg/revision/latest?cb=20161026024503
+                - name: Sherilyn Fenn
+                  character: Audrey Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/98/AudreyNew.jpg/revision/latest?cb=20161026025355
+                - name: Richard Beymer
+                  character: Benjamin Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/fa/Ben_001.jpg/revision/latest?cb=20100419234934
+                - name: David Patrick Kelly
+                  character: Jerry Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/5/54/Jerryhornedpk.jpg/revision/latest?cb=20160511122515
+                - name: Michael Ontkean
+                  character: Sherrif Harry S. Truman
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/c/c7/HarryNew.jpg/revision/latest?cb=20161026022237
+                - name: Kimmy Robertson
+                  character: Lucy Moran
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/47/LucyNewAgain.jpg/revision/latest?cb=20161026023511
+                - name: Harry Goaz
+                  character: Andy Brennan
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/72/AndyNew.jpg/revision/latest?cb=20161026025038
+                - name: Michael Horse
+                  character: Hawk
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/a/a1/DeputyHawkAtTheDiner.jpg/revision/latest?cb=20160925005033
+                - name: Miguel Ferrer
+                  character: Albert Rosenfield
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/e/e6/AlbertRosenfeld.jpg/revision/latest?cb=20100330010337
+                - name: David Lynch
+                  character: Gordon Cole
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/7a/GordonColeNewMainPhoto.png/revision/latest?cb=20171109180605
+                - name: Mädchen Amick
+                  character: Shelly Johnson
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/66/Shelly_Johnson.png/revision/latest?cb=20230321101316
+                - name: Dana Ashbrook
+                  character: Bobby Briggs
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/98/BobbyHiRes.jpg/revision/latest?cb=20161101195815
+                - name: Eric Da Re
+                  character: Leo Johnson
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/a/a7/Leo_Johnson.jpg/revision/latest?cb=20161025123520
+                - name: Everett McGill
+                  character: Ed Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/3c/BigEdNewPic.jpg/revision/latest?cb=20170524152240
+                - name: Wendy Robie
+                  character: Nadine Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/4b/NadineNew.jpg/revision/latest?cb=20161026023639
+                - name: Peggy Lipton
+                  character: Norma Jennings
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f3/Norma14214.jpg/revision/latest?cb=20161030052435
+                - name: Chris Mulkey
+                  character: Hank Jennings
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f5/HankHiRes2.jpg/revision/latest?cb=20161101201553
+                - name: Grace Zabriskie
+                  character: Sarah Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/30/Sarah_007.png/revision/latest?cb=20170711230313
+                - name: Ray Wise
+                  character: Leland Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/c/cd/LelandPalmer.jpg/revision/latest?cb=20160816065237
+                - name: Russ Tamblyn
+                  character: Dr. Lawrence Jacoby
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/6f/JacobyNew.jpg/revision/latest?cb=20161025125112
+                - name: Joan Chen
+                  character: Josie Packard
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/8/8b/JosieNew.jpg/revision/latest?cb=20161026022344
+                - name: Jack Nance
+                  character: Pete Martell
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/3d/Pete_Martell.jpg/revision/latest?cb=20170822052012
+                - name: Piper Laurie
+                  character: Catherine Martell
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/b/ba/Catherine_Martell_Infobox.jpg/revision/latest?cb=20231015113852
+                - name: Frank Silva
+                  character: BOB
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/37/KillerBob.jpg/revision/latest?cb=20100423043335
+                - name: Michael J. Anderson
+                  character: The arm
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/0/0f/MFAPsitting.jpg/revision/latest?cb=20100709031955
+                - name: Al Strobel
+                  character: Mike
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/d/d4/MikeDream.jpg/revision/latest?cb=20100911201926
+                - name: Catherine E. Coulson
+                  character: Margaret Lanterman (Log Lady)
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/6/68/Logladyreplacement.jpg/revision/latest?cb=20160906170235
+  /season3:
+    get:
+      operationId: getSeason3
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Season'
+              example:
+                title: Season 3
+                year: 2017
+                rating: 8.5
+                description: |-
+                  The third season of Twin Peaks (also known as Twin Peaks: The Return) is a miniseries released in 2017 after a long hiatus since the conclusion of the second season. This season continues the story of Twin Peaks, bringing viewers back to the world of mystery and mysticism.
+
+                  The plot begins with the return of FBI agent Dale Cooper to the city of Twin Peaks after many years of absence. Cooper is faced with new mysteries and mysteries, as well as the changes that have taken place in the city during his absence.
+                  Over the course of the miniseries, new mysterious events and characters appear, adding new layers to the already complex plot of Twin Peaks.
+                thumbnail_urls:
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t1.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t2.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t3.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t4.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t5.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t6.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t7.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t8.jpg
+                - https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/thumbnail/t9.jpg
+                episodes:
+                - title: 01. My Log Has a Message for You
+                  rating: 8.6
+                  description: "Laura and Dale are talking in the lodge. The girl\
+                    \ says they will meet in 25 years. Cooper's doppelganger in South\
+                    \ Dakota hires two people for some kind of business. The lady\
+                    \ with the log contacts Hawke and asks him to listen to a message\
+                    \ from her \"companion\" related to Dale's disappearance. Benjamin\
+                    \ Horn has a new assistant, Beverly. And his brother Jerry continues\
+                    \ to experiment with drugs. \n\nSam Colby has a dusty and well-paid\
+                    \ job in New York: he sits in a room with cameras and watches\
+                    \ a transparent cube. We need to let you know if something appears\
+                    \ in it. There is a guard at the door to the room. When he leaves,\
+                    \ Sam takes Tracey's girlfriend inside. While the couple is having\
+                    \ sex, an entity forms in the cube, breaks free and kills both\
+                    \ of them. In South Dakota, the head of the hostess and the body\
+                    \ of an unknown man are found in the apartment of librarian Ruth\
+                    \ Davenport. There are a lot of fingerprints of the school principal\
+                    \ Bill Hastings at the crime scene, who cannot explain these oddities\
+                    \ or provide an alibi."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e1.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e01.TwinPeaks.top.mp4
+                - title: '02. The Stars Turn and a Time Presents Itself '
+                  rating: 8.6
+                  description: "His wife visits Bill in prison and does not believe\
+                    \ his story about a dream about Ruth's apartment: Phyllis is sure\
+                    \ that the couple had an affair. The couple quarrel, and Bill\
+                    \ declares that he also knows about the relationship between Phyllis\
+                    \ and their lawyer George. Cooper is in the wigwam talking to\
+                    \ Laura, a Giant, a One-armed Man, and a tree with a strange human\
+                    \ head. Dale wonders how long he's been here, and when he can\
+                    \ leave. He is asked to recall his doppelganger: as soon as the\
+                    \ doppelganger returns to the wigwam, the real Cooper will be\
+                    \ free. \n\nThe evil doppelganger, on the contrary, tends not\
+                    \ to get into the \"wigwam\". He needed information, so he killed\
+                    \ Phyllis. The assistants betrayed the Doppelganger: they took\
+                    \ money for his elimination, but were eliminated themselves. Cooper's\
+                    \ doppelganger needs Bill for some reason. The real Dale got out\
+                    \ of the wigwam and materialized briefly in the cube while Sam\
+                    \ was out picking up Tracy, so he went unnoticed. Shelly is at\
+                    \ the bar discussing her daughter's choice with her friends and\
+                    \ sees James enter."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e2.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e02.TwinPeaks.top.mp4
+                - title: 03. Call for Help
+                  rating: 8.4
+                  description: "Cooper is still barely thinking straight and doesn't\
+                    \ really understand how he moves from one location to another.\
+                    \ He met a woman with no eyes, went up to the roof with her, and\
+                    \ then received a warning to avoid meeting someone who was currently\
+                    \ diligently knocking on the door. In addition to the doppelganger\
+                    \ based in South Dakota, Dale has another doppelganger living\
+                    \ under the name Dougie Jones. He suddenly finds himself in a\
+                    \ \"wigwam\". Dagi was created with a specific purpose, and it\
+                    \ has been achieved, so all that remains of the doppelganger is\
+                    \ a ring and a ball, and he disappears. \nDougie's friend Jade\
+                    \ mistakes Cooper for her boyfriend. She gives him five dollars\
+                    \ and drops him off at the casino. Dale, using machine guns with\
+                    \ a wigwama badge, wins the jackpot. Cole and other agents investigate\
+                    \ the deaths of Sam and Tracy. It is not even known who owns the\
+                    \ building, and what happened there. Gordon is informed that Cooper,\
+                    \ who has been missing for a long time, has been spotted in South\
+                    \ Dakota: the doppelganger had an accident there."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e3.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e03.TwinPeaks.top.mp4
+                - title: 04. …Brings Back Some Memories
+                  rating: 8.5
+                  description: "Having won more than 400 thousand at the casino, Dale\
+                    \ does not know what to do next. Since he is still mistaken for\
+                    \ Dagi, he is taken to the doppelganger's house. Jones' wife,\
+                    \ Janie-Yi, swears at \"her husband\" at first, but then sees\
+                    \ the money and changes her anger to mercy. Cooper's condition\
+                    \ is still far from ideal, so he does not participate in conversations,\
+                    \ and in the morning, the household notices his atypical behavior\
+                    \ and appearance. \n\nThe police force in Twin Peaks has changed\
+                    \ somewhat over the years. Bobby is now also one of the law enforcement\
+                    \ officers. He and Hawk and the others are working on an investigation\
+                    \ into the disappearance of something related to Cooper. Before\
+                    \ going to South Dakota, Cole enlists the help of Denise, who\
+                    \ has accepted a promotion. The doppelganger is behind bars because\
+                    \ they found a lot of illegal stuff in his car after the accident.\
+                    \ The doppelganger claims to be working undercover. They don't\
+                    \ trust him too much and want to take a closer look."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e4.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e04.TwinPeaks.top.mp4
+                - title: 05. Case Files
+                  rating: 8.1
+                  description: "Cooper is in trouble at Dougie's job. Dale is already\
+                    \ uncomfortable, and his colleague is lying in his direction,\
+                    \ and his boss doesn't want to figure out the problem. They tried\
+                    \ to blow up Cooper's car, but the agent was not injured, as the\
+                    \ hijackers managed to get in there. The owners of the casino,\
+                    \ the Mitcham brothers, give the manager a beating: the day before,\
+                    \ Jones won too much money from their establishment, so it is\
+                    \ believed that someone helped with the scam from the inside.\
+                    \ Shelly's wayward daughter, Becky, asks her mother for money\
+                    \ and uses it to buy drugs for herself and a friend. \n\nThe doppelganger\
+                    \ calls from the prison, dialing a very long code, which damages\
+                    \ the security system. The headless corpse, according to the prints,\
+                    \ turned out to be the long-missing Major Briggs. Dagi's ring\
+                    \ was found in his stomach. Even the Pentagon became interested\
+                    \ in this case, as 16 similar cases have already occurred over\
+                    \ the past quarter century."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e5.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e05.TwinPeaks.top.mp4
+                - title: 06. Don't Die
+                  rating: 8.1
+                  description: "Janie was able to pay off her debts using the money\
+                    \ she won. She accuses her \"husband\" of cheating because she\
+                    \ got his picture in Jade's company. Dale is still not at ease,\
+                    \ but he manages to butter up the boss by accidentally doing a\
+                    \ good job, and in a way that no one expected from him. Duncan\
+                    \ Todd, who works for Doppelganger, and the so-far unnamed dwarf\
+                    \ must follow the instructions. The dwarf, for example, stabs\
+                    \ Loraine and her colleagues. Cooper's former assistant, Diana,\
+                    \ comes to meet Albert at the bar. Dale has a new vision involving\
+                    \ Mike. At first, he said that there should be only one left (hinting\
+                    \ at doppelgangers), but now he advises you to wake up and not\
+                    \ die. \n\nA tragedy is happening in Twin Peaks. Richard Horn,\
+                    \ Benjamin's grandson— drove into the oncoming lane, killed the\
+                    \ boy and fled the scene of the accident. It was seen by the owner\
+                    \ of the trailer park, Carl Rodd. And Hawk, in the toilet cubicle,\
+                    \ finds strange scribbled pages due to his reverent attitude towards\
+                    \ the culture of his ancestors."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e6.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e06.TwinPeaks.top.mp4
+                - title: '07. There''s a Body All Right '
+                  rating: 8.7
+                  description: "After reading the notes, Hawk recognized parts of\
+                    \ Laura's diary in them. They say that the real Cooper never left\
+                    \ the wigwam, sacrificing himself for the sake of freedom and\
+                    \ Annie's life. Frank Truman, the brother of former Sheriff Harry,\
+                    \ gathers information about that ill—fated day to find out the\
+                    \ truth. The Feds are also interested in the investigation. They\
+                    \ confront Doppelganger and Diana. Dale's former assistant is\
+                    \ sure that this is the first time she has seen this man, even\
+                    \ though he looks little different from her ex-boss. \n\nIn South\
+                    \ Dakota, there are problems with Briggs' prints: his body is\
+                    \ younger than it should be, by about 20-25 years. Cooper, posing\
+                    \ as Dougie against his will, is interested in the police: the\
+                    \ guards were attracted by the explosion of the car of an inconspicuous\
+                    \ insurer. The dwarf is also awake and is waiting for Dale at\
+                    \ the office with a gun. Because it smells fried, the doppelganger\
+                    \ is blackmailed into freedom, taking with him Ray— his henchman,\
+                    \ who was arrested earlier."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e7.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e07.TwinPeaks.top.mp4
+                - title: 08. Gotta Light?
+                  rating: 8.7
+                  description: "The Doppelganger needs information from Ray, but Ray\
+                    \ is in no hurry to share it. There is a scuffle during the stop.\
+                    \ The advantage was on the side of the doppelganger, but his henchman\
+                    \ replaced the boss's cartridges with blanks. Ray seized the initiative\
+                    \ and wounded the doppelganger three times. Then strange translucent\
+                    \ entities appeared, including Bob's face. They scared Ray off,\
+                    \ and he was forced to send a message to the customer that the\
+                    \ target could have survived. The doppelganger stays in place\
+                    \ and recovers. \n\nThe events are transferred to 1945 at the\
+                    \ time of the explosion of the first nuclear bomb in New Mexico.\
+                    \ It was then that Bob was born in his current form, as well as\
+                    \ the Experiment — the essence of a transparent cube, and the\
+                    \ foundation for other supernatural things was laid. After 11\
+                    \ years, the situation began to develop even faster. The harsh\
+                    \ lumberjacks left behind a lot of corpses, and the chimera that\
+                    \ hatched from the egg got into the girl's body through her mouth."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e8.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e08.TwinPeaks.top.mp4
+                - title: 09. This Is the Chair
+                  rating: 8.3
+                  description: "The Doppelganger still made it to the ranch and sent\
+                    \ two messengers to deal with Murphy's jailer. He also manages\
+                    \ to call Todd and sends a message to Diana. Since there are no\
+                    \ records of Dougie and there are no documents dated earlier than\
+                    \ 1997, the feds have an assumption that he is in the witness\
+                    \ protection program. There is still hope for a DNA test and the\
+                    \ talkativeness of the dwarf Ike Spiegel, who must first be caught.\
+                    \ \n\nJerry Horn allegedly has his leg taken away (part of his\
+                    \ realistic vision). Briggs knew that the day of such a big investigation\
+                    \ would come, so he left clues for the guards — decryption of\
+                    \ data received from space. And Cooper's last name is mentioned\
+                    \ there twice. Hastings tells Agent Tammy Preston how he met the\
+                    \ \"canned\" Briggs in another dimension."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e9.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e09.TwinPeaks.top.mp4
+                - title: 10. Laura Is the One
+                  rating: 8.1
+                  description: "Richard Horn, in his usual manner, deals with the\
+                    \ witness, who was ready to tell about the accident in a letter\
+                    \ to the sheriff. Richard's employer intercepts the recordings.\
+                    \ Then the guy robs his own grandmother. Sylvia calls Benjamin\
+                    \ to return the money. The lady with the log calls Laura Palmer\
+                    \ the chosen one in a conversation with Hawke. \n\nThe owners\
+                    \ of the casino, where Cooper won a large sum in the form of Dougie,\
+                    \ recognized the \"fraudster\" in a report on the arrest of Ike\
+                    \ Spiegel. They want to teach an arrogant client a lesson, so\
+                    \ they find an approach to an insurer from Dougie's office, with\
+                    \ whom the real Cooper recently had a conflict, and offer to slander\
+                    \ a colleague. Allegedly, Jones deliberately did not pay the Mitch\
+                    \ brothers for the recent fire. The amount of the dispute is about\
+                    \ 30 million. Tammy Preston was able to get Doppelganger photos\
+                    \ from the murder scene in New York. According to Diana's message,\
+                    \ it can be understood that Hastings has been arrested."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e10.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e10.TwinPeaks.top.mp4
+                - title: 11. There's Fire Where You Are Going
+                  rating: 8.9
+                  description: "The Mitcham brothers set a trap for Dougie (Cooper).\
+                    \ When he comes to a meeting to hand over a check for 30 million,\
+                    \ the \"lucky guy\" will be killed. The day before, one of the\
+                    \ casino owners, Bradley, has a dream from which it becomes clear\
+                    \ that Dougie did not intentionally harm them or cheat. Therefore,\
+                    \ the original plan is canceled and the meeting takes place in\
+                    \ a friendly atmosphere. \n\nThere are two shootings in Twin Peaks\
+                    \ in a row. First, Becky shoots through the door from her mother's\
+                    \ car into the house of Stephen's mistress, and then the child\
+                    \ shoots at the diner from the street. The commotion allows us\
+                    \ to find a remarkable couple in one of the cars — a woman with\
+                    \ a sick girl. During the federal investigation, Hastings leads\
+                    \ agents to the place where he and Ruth met Major Briggs. They\
+                    \ manage to find Ruth's body with the coordinates on her arm.\
+                    \ A vortex forms in the sky, and Gordon is almost sucked in. Albert\
+                    \ saves him. There were lumberjacks in the vortex, and one of\
+                    \ them killed Hastings in front of Diana's eyes."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e11.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e11.TwinPeaks.top.mp4
+                - title: 12. Let's Rock
+                  rating: 7.7
+                  description: "It's time to fill Tammy and Diana in on the Blue Rose\
+                    \ Squad. The coordinates on the deceased Ruth's arm point to Twin\
+                    \ Peaks. Audrey is looking for her ex-lover and connects her husband\
+                    \ to the investigation. Charlie didn't want to interfere, but\
+                    \ he had to. He learned the sad news and did not inform his wife\
+                    \ about it. Hawke visits Sarah Palmer, as she became ill at the\
+                    \ store. Sheriff Frank Truman tells Benjamin about the accident\
+                    \ caused by his grandson. Not only did Richard kill the child,\
+                    \ but he also tried to get rid of the witness. Horn Sr. regrets\
+                    \ what happened and promises to cover all expenses for Miriam's\
+                    \ treatment. Benjamin gives Frank the key to room 315 as a souvenir\
+                    \ for Harry. \n\nThe Doppelganger mercenaries dealt with Murphy.\
+                    \ Cooper is increasingly immersed in Dougie's life and even spends\
+                    \ time with his son playing ball."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e12.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e12.TwinPeaks.top.mp4
+                - title: 13. What Story is That, Charlie?
+                  rating: 8.3
+                  description: "Cooper now has no problems with the Mitcham brothers,\
+                    \ but Anthony Sinclair must kill him, or rather Dougie, on the\
+                    \ order of Duncan Todd. He had already bought the poison and put\
+                    \ it in the drink, but changed his mind and canceled the attempt.\
+                    \ The Doppelganger arrives to meet the gang, Ray and Richard Horn.\
+                    \ The leader manages to defeat and kill. And Ray, having initially\
+                    \ received the customer's name from him (Phillip Jeffries), is\
+                    \ forced by the doppelganger to wear the ring of the \"black lodge\"\
+                    . The Doppelganger kills Ray as well, and Ray is transported to\
+                    \ Mike and company. \n\nShelly has a friend, Renee. She and James\
+                    \ clearly like each other. During Hurley's performance in \"House\
+                    \ by the Road,\" Renee was moved. Dr. Jacobi and Nadine are meeting\
+                    \ for the first time in many years. Norma was able to expand her\
+                    \ business, thanks to Walter, and opened several more establishments."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e13.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e13.TwinPeaks.top.mp4
+                - title: 14. We Are Like the Dreamer
+                  rating: 9.0
+                  description: "Tammy learns more about the first Blue Rose case.\
+                    \ Gordon becomes aware of the pages found from Laura's diary and\
+                    \ the two Coopers mentioned. Diana identified Janie as her stepsister.\
+                    \ The feds from Vegas are being called up to find the Jones couple.\
+                    \ Following the clues Briggs left for the guards, the sheriff\
+                    \ and his deputies find Naido in the forest. She is naked, and\
+                    \ when Andy tries to touch the girl, he finds himself in another\
+                    \ world. He sees a Firefighter, both Coopers, Laura Palmer, events\
+                    \ that happened in the middle of the last century in New Mexico,\
+                    \ and much more. Then he comes back. \n\nIn a bar, a trucker accosts\
+                    \ Sarah. She shows the insolent man her true nature, darkness,\
+                    \ and then kills him. Billy, splattering blood from his nose all\
+                    \ around, burst into Megan's kitchen, and then hurriedly retreated.\
+                    \ James is haunted by the noise from the boiler room."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e14.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e14.TwinPeaks.top.mp4
+                - title: 15. There's Some Fear in Letting Go
+                  rating: 8.7
+                  description: "Renee has a husband, Chuck, who comes to the House\
+                    \ by the Road to deal with James. Freddy comes to the rescue,\
+                    \ who, after meeting with a Firefighter, bought a rubber glove\
+                    \ and can use it to increase his strength. Since Chuck is in the\
+                    \ hospital, the other two participants in the brawl are being\
+                    \ detained. Ruby appears in the bar, crawling on the floor and\
+                    \ screaming. Nadine finally gives her husband a divorce. Ed proposes\
+                    \ to Norma. She is ready to sell most of the business to her partner\
+                    \ in order to free herself from obligations and marry her long-time\
+                    \ lover. \n\nThe Doppelganger makes inquiries at the gas station\
+                    \ about Judy and the attempted murder. Jeffries, presented in\
+                    \ an unusual guise, gives an equally vague answer. Duncan Todd\
+                    \ and his assistant were killed in Vegas. Richard tried to kill\
+                    \ Cooper's doppelganger, as he knows that his mother was acquainted\
+                    \ with the agent in the past. The Doppelganger calms Horn Jr.\
+                    \ down. As soon as the real Dale hears Gordon's name, he puts\
+                    \ the plug in the socket."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e15.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e15.TwinPeaks.top.mp4
+                - title: 16. No Knock, No Doorbell
+                  rating: 9.5
+                  description: "Using the coordinates obtained from Diana or Jeffries,\
+                    \ the doppelganger, accompanied by Richard, arrives at the target\
+                    \ he needs. The doppelganger directs Horn Jr., and he is electrocuted\
+                    \ in front of Jerry. Audrey is moving further away from reality.\
+                    \ She saw herself dancing in the \"House by the Road\", and found\
+                    \ herself in front of her own reflection in a snow-white room.\
+                    \ \n\nThe Doppelganger mercenaries got as close as possible to\
+                    \ the Joneses, but were killed. Cooper came to his senses after\
+                    \ the incident with the outlet, and learned that Mike could make\
+                    \ another copy of the doppelganger. Dale asks the casino owners\
+                    \ to arrange a flight to Spokane. Diana received a message from\
+                    \ the doppelganger and showed her true self. They had to kill\
+                    \ her. Diana also turned out to be a copy and was made for a specific\
+                    \ purpose."
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e16.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e16.TwinPeaks.top.mp4
+                - title: 17. The Past Dictates the Future
+                  rating: 9.3
+                  description: "Even 25 years ago, Major Briggs told Cooper and Cole\
+                    \ about the existence of a supernatural substance called Judy.\
+                    \ Agent Jeffries was also aware of the situation, but he knew\
+                    \ that the search could be dangerous, and everyone would pay a\
+                    \ price. The Doppelganger pretends to be the real Cooper, but\
+                    \ he fails to play the role to the end: Lucy, as predicted, kills\
+                    \ the doppelganger. Lumberjacks appear and take out a sphere with\
+                    \ a Bean inside. Freddy intervenes and destroys the evil spirit.\
+                    \ The real Dale puts a ring on Bob, and the corpse disappears,\
+                    \ and the ring is moved to the \"black lodge\". Naido turns out\
+                    \ to be the real Diana. \n\nJeffries takes Cooper back to February\
+                    \ 23, 1989, so that the agent can prevent the murder of Laura\
+                    \ Palmer. And so it turns out: they meet at the right moment,\
+                    \ and the girl remembers Dale, so she trusts him. Her body is\
+                    \ not found the next morning. However, Laura disappears from Cooper's\
+                    \ sight when he hears the scratching sound of Judy approaching…"
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e17.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e17.TwinPeaks.top.mp4
+                - title: 18. What Is Your Name?
+                  rating: 8.7
+                  description: "Mike created a new Dougie in the black lodge so that\
+                    \ he could reunite with his wife and son. Cooper and Diana make\
+                    \ a long journey side by side, not knowing exactly where and in\
+                    \ what time period they are. The couple gets to the hotel and\
+                    \ spends the night together. In the morning, Cooper wakes up alone\
+                    \ in a different place, and a note is written in Richard's name\
+                    \ from Linda asking him not to look. \n\nDale goes to Odessa,\
+                    \ Texas. There he stands up for the waitress and gets the address\
+                    \ of her colleague Carrie Page, an exact copy of Laura Palmer.\
+                    \ The woman is confused, but agrees to go to Twin Peaks with Cooper,\
+                    \ as she has long wanted to move to another place. Some signs\
+                    \ indicate that something is wrong in this reality. There are\
+                    \ other people living in the Palmers' house. Dale decides to find\
+                    \ out what year it is. He and Carrie turn back to the house and\
+                    \ hear Sarah calling her daughter, and Carrie automatically answers\
+                    \ her the way Laura would…"
+                  thumbnail_url: https://t9sk0mds-8080.euw.devtunnels.ms/movies/season3/episode/e18.jpg
+                  video_url: https://v.twinpeaks.top/Twin.Peaks.s03e18.TwinPeaks.top.mp4
+                actors:
+                - name: Kyle MacLachlan
+                  character: Dale Cooper
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/8/81/Dale_Cooper_%282010s%29.jpg/revision/latest?cb=20170815022327
+                - name: Sheryl Lee
+                  character: Laura Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f0/Laura_Palmer_%282010s%29.jpg/revision/latest/scale-to-width-down/1000?cb=20170820222335
+                - name: James Marshall
+                  character: James Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/90/JamesRoadhouse.png/revision/latest?cb=20170807173150
+                - name: Eamon Farren
+                  character: Richard Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/a/aa/Richard_Horne.jpg/revision/latest/scale-to-width-down/1000?cb=20170805011303
+                - name: Sherilyn Fenn
+                  character: Audrey Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/79/AudreyHorne2014.jpg/revision/latest?cb=20170731215823
+                - name: Richard Beymer
+                  character: Benjamin Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/5/52/Benjamin_Horne_%282010s%29.jpg/revision/latest?cb=20170915214300
+                - name: David Patrick Kelly
+                  character: Jerry Horne
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/2/24/Jerry_Horne_%282010s%29.jpg/revision/latest?cb=20170923012615
+                - name: Robert Forster
+                  character: Sherrif Frank Truman
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/93/Frank_002.jpg/revision/latest?cb=20170724070837
+                - name: Harry Goaz
+                  character: Andy Brennan
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/9f/Andy_Brennan_%282010s%29.jpg/revision/latest?cb=20170814111711
+                - name: Kimmy Robertson
+                  character: Lucy Brennan
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/1/10/Lucy_Brennan_%282010s%29.jpg/revision/latest?cb=20170915174134
+                - name: Michael Horse
+                  character: Hawk
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/e/ee/Hawk_%282010s%29.jpg/revision/latest?cb=20170915173246
+                - name: David Lynch
+                  character: Gordon Cole
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f0/Gordon_Cole_%282016%29.png/revision/latest/scale-to-width-down/1000?cb=20230404141651
+                - name: Miguel Ferrer
+                  character: Albert Rosenfield
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/72/Albert_Rosenfield.jpg/revision/latest?cb=20170805003936
+                - name: Laura Dern
+                  character: Diane Evans
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/7/7b/Diane_Evans_%28tulpa%29.jpg/revision/latest?cb=20170915215249
+                - name: Chrysta Bell
+                  character: Tamara Preston
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/1/12/Tammy_Preston.jpg/revision/latest?cb=20170805003656
+                - name: Dana Ashbrook
+                  character: Bobby Briggs
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/ff/Bobby_Briggs_%282010s%29.jpg/revision/latest?cb=20170915181919
+                - name: Mädchen Amick
+                  character: Shelly Briggs
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/47/Shelly_Briggs_%282010s%29.jpg/revision/latest?cb=20180112042048
+                - name: Amanda Seyfried
+                  character: Becky Burnett
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/2/2a/Becky_Burnett.jpg/revision/latest?cb=20170823053829
+                - name: Caleb Landry Jones
+                  character: Steven Burnett
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/1/12/Steven_Burnett.jpg/revision/latest?cb=20170822214222
+                - name: Everett McGill
+                  character: Ed Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/b/be/Ed_Hurley_%282010s%29.jpg/revision/latest?cb=20170923012938
+                - name: Wendy Robie
+                  character: Nadine Hurley
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/4/42/Nadine2017.jpg/revision/latest?cb=20170605210408
+                - name: Peggy Lipton
+                  character: Norma Jennings
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/1/19/Norma_Jennings_%282010s%29.jpg/revision/latest?cb=20190819185933
+                - name: Grace Zabriskie
+                  character: Sarah Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/fa/Sarah_palmer_2017.png/revision/latest?cb=20170731011136
+                - name: Ray Wise
+                  character: Leland Palmer
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/d/df/Leland2017.png/revision/latest?cb=20170625011021
+                - name: Russ Tamblyn
+                  character: Dr. Lawrence Jacoby
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/2/22/Lawrence_Jacoby_%282010s%29.jpg/revision/latest?cb=20170824195051
+                - name: Jake Wardle
+                  character: Freddie Sykes
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/9c/Freddie_Sykes.jpg/revision/latest?cb=20170821105510
+                - name: George Griffith
+                  character: Ray Monroe
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/91/Ray_Monroe.jpg/revision/latest?cb=20170915173507
+                - name: Carel Struycken
+                  character: Fireman
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/d/d0/Fireman.jpg/revision/latest/scale-to-width-down/1000?cb=20170814110523
+                - name: Catherine E. Coulson
+                  character: Margaret Lanterman (Log Lady)
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/9/97/Margaret_Lanterman_%282010s%29.jpg/revision/latest?cb=20170825191537
+                - name: Don S. Davis
+                  character: Garland Briggs
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/f/f5/Garland_Briggs.png/revision/latest?cb=20161021155038
+                - name: Al Strobel
+                  character: Mike
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/1/13/Mike_%282010s%29.jpg/revision/latest?cb=20170915174337
+                - name: Frank Silva
+                  character: BOB
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/3/37/KillerBob.jpg/revision/latest?cb=20100423043335
+                - name: 'Robert Broski '
+                  character: Woodsman
+                  thumbnail_url: https://static.wikia.nocookie.net/twinpeaks/images/b/b3/GottaLight.png/revision/latest?cb=20170626141331
+  /movie:
+    get:
+      operationId: getMovie
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: string
+components:
+  schemas:
+    Actor:
+      title: Actor
+      type: object
+      required:
+      - name
+      - character
+      - thumbnailUrl
+      properties:
+        name:
+          type: string
+        character:
+          type: string
+        thumbnailUrl:
+          type: string
+    Episode:
+      title: Episode
+      type: object
+      required:
+      - title
+      - rating
+      - description
+      - thumbnailUrl
+      - videoUrl
+      properties:
+        title:
+          type: string
+        rating:
+          type: number
+          format: float
+        description:
+          type: string
+        thumbnailUrl:
+          type: string
+        videoUrl:
+          type: string
+    Season:
+      title: Season
+      type: object
+      required:
+      - title
+      - year
+      - rating
+      - description
+      properties:
+        title:
+          type: string
+        year:
+          type: integer
+          format: int32
+        rating:
+          type: number
+          format: float
+        description:
+          type: string
+        thumbnailUrls:
+          type: array
+          items:
+            type: string
+        episodes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Episode'
+        actors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Actor'
