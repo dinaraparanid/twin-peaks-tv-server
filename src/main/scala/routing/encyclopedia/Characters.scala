@@ -15,11 +15,11 @@ private def characters = {
 
   endpoint.get
     .in("characters")
-    .in(query[String]("query"))
+    .in(query[Option[String]]("query"))
     .out(jsonBody[List[Character]] example data)
     .serverLogic[IO]: query =>
       IO pure Right:
-        query.trim.toLowerCase match {
+        query.getOrElse("").trim.toLowerCase match {
           case ""         => data
           case queryLower => data filter (_.name.toLowerCase `contains` queryLower)
         }
