@@ -1,5 +1,5 @@
 package com.paranid5.twin_peaks_tv_server
-package routing.movies
+package routing.encyclopedia
 
 import cats.data.Reader
 import cats.effect.IO
@@ -12,11 +12,11 @@ import org.http4s.server.middleware.CORS
 
 import sttp.tapir.server.http4s.Http4sServerInterpreter
 
-def moviesRoutes: AppRoutes =
+def encyclopediaRoutes: AppRoutes =
   Reader: appModule =>
-    val moviesEndpoints = List(seasonOneEndpoint, seasonTwoEndpoint, seasonThreeEndpoint, movieEndpoint)
-    val moviesRoutes = Http4sServerInterpreter[IO]().toRoutes(moviesEndpoints)
-    val swaggerRoutes = docsRoutes(moviesEndpoints)
+    val encyclopediaEndpoints = List(characters)
+    val encyclopediaRoutes = Http4sServerInterpreter[IO]().toRoutes(encyclopediaEndpoints)
+    val swaggerRoutes = docsRoutes(encyclopediaEndpoints)
 
     CORS.policy.withAllowOriginAll:
-      moviesRoutes <+> swaggerRoutes
+      encyclopediaRoutes <+> swaggerRoutes

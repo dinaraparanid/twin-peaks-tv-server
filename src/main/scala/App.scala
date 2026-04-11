@@ -6,6 +6,7 @@ import cats.effect.{ExitCode, IO, IOApp}
 import com.comcast.ip4s.{ipv4, port}
 
 import com.paranid5.twin_peaks_tv_server.di.{AppDependencies, AppModule}
+import com.paranid5.twin_peaks_tv_server.routing.encyclopedia.encyclopediaRoutes
 import com.paranid5.twin_peaks_tv_server.routing.movies.moviesRoutes
 
 import org.http4s.ember.server.EmberServerBuilder
@@ -31,7 +32,10 @@ object App extends IOApp:
   private def appService: AppDependencies[Kleisli[IO, Request[IO], Response[IO]]] =
     for
       movies <- moviesRoutes
+      encyclopedia <- encyclopediaRoutes
     yield Router(
+      "/images" -> fileService[IO](FileService.Config("data/images")),
       "/movies" -> movies,
+      "/encyclopedia" -> encyclopedia,
     ).orNotFound
 

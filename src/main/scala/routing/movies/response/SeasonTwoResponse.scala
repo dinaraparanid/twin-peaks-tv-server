@@ -1,6 +1,7 @@
 package com.paranid5.twin_peaks_tv_server
 package routing.movies.response
 
+import com.paranid5.twin_peaks_tv_server.routing.imageHostBaseUrl
 import com.paranid5.twin_peaks_tv_server.routing.movies.entity.*
 
 def seasonTwo: Season =
